@@ -68,6 +68,8 @@
 .signin:hover {
     cursor: pointer;
 }
+
+/* This code applies to the search bar below the logo on the page */
 .searchbar {
     width: fit-content;
     display: block;
@@ -89,4 +91,47 @@
 .searchbar:hover {
     box-shadow: black;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3)
+}
+
+/* This code will affect the bottom elements on the page */
+
+
+
+.botleft {
+    font-family: Arial, sans-serif;
+    float: left;
+    font-size: 14px;
+    margin: 0px;
+    color: black;
+    margin-top: 590px;
+    bottom: 0px;
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.botmid{
+    font-family: Arial, sans-serif;
+    float: left;
+    font-size: 14px;
+    margin: 0px;
+    color: black;
+    margin-top: 590px;
+    bottom: 10px;
+    padding: 15px;
+    padding-left: 510px;
+    padding-right: 545px;
+    background-color: rgb(235, 235, 235);
+}
+
+.botright {
+    font-family: Arial, sanss-serif;
+    float: right;
+    font-size: 14px;
+    margin: 0px;
+    color: black;
+    margin-top: 590px;
+    bottom: 0px;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(235, 235, 235);
 }

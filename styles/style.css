@@ -8,7 +8,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 11%;
 }
 
 /* Applies to the text in the top left of the page */
@@ -82,16 +82,51 @@
 }
 
 .searchbar input {
-    height: 30px;
-    width: 500px;
+    height: 40px;
+    width: 550px;
     font-family: Verdana;
     font-size: 14px;
+    border: 0.5px solid lightgray;
 }
 
 .searchbar:hover {
     box-shadow: black;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3)
 }
+
+.mag_glass {
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    position: relative;
+    bottom: 34px;
+    left: 14px;
+    opacity: 0.5;
+}
+
+.mic {
+    width: 13px;
+    height: 20px;
+    z-index: 1;
+    position: relative;
+    bottom: 32px;
+    left: 500px;
+}
+
+.google_search {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    width: auto;
+    padding: 25x;
+    border-radius: 4px;
+    height: 25px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgba(0, 0, 0, .1)
+}
+
 
 /* This code will affect the bottom elements on the page */
 
@@ -101,9 +136,8 @@
     font-family: Arial, sans-serif;
     float: left;
     font-size: 14px;
-    margin: 0px;
     color: black;
-    margin-top: 590px;
+    margin-top: 520px;
     bottom: 0px;
     padding: 15px;
     background-color: rgb(235, 235, 235);
@@ -113,14 +147,15 @@
 .botmid{
     font-family: Arial, sans-serif;
     float: left;
+    position: absolute;
     font-size: 14px;
     margin: 0px;
     color: black;
-    margin-top: 590px;
-    bottom: 10px;
-    padding: 15px;
+    margin-top: 520px;
+    top: 489px;
+    padding: 14px;
     padding-left: 510px;
-    padding-right: 545px;
+    padding-right: 560px;
     background-color: rgb(235, 235, 235);
 }
 
@@ -130,7 +165,7 @@
     font-size: 14px;
     margin: 0px;
     color: black;
-    margin-top: 590px;
+    margin-top: 520px;
     bottom: 0px;
     padding: 15px 30px 15px 30px;
     background-color: rgb(235, 235, 235);

@@ -107,7 +107,7 @@
     z-index: 1;
     position: relative;
     bottom: 32px;
-    left: 500px;
+    left: 540px;
 }
 
 .google_search {
@@ -115,17 +115,17 @@
     font-size: 14px;
     position: absolute;
     left: 810px;
-    padding: 15px 15px 5px 15px;
+    padding: 10px 15px 3px 15px;
     border-radius: 4px;
     height: 25px;
     margin-top: 20px;
     color: black;
-    background-color: rgba(100, 100, 100, .1)
+    background-color: rgba(200, 200, 200, .1)
 }
 
 .google_search:hover {
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(100, 100, 100, .5);;
+    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);;
 }
 
 .lucky {
@@ -133,17 +133,17 @@
     font-size: 14px;
     position: absolute;
     left: 960px;
-    padding: 15px 15px 5px 15px;
+    padding: 10px 15px 3px 15px;
     border-radius: 4px;
     height: 25px;
     margin-top: 20px;
     color: black;
-    background-color: rgba(100, 100, 100, .1)
+    background-color: rgba(200, 200, 200, .1)
 }
 
 .lucky:hover {
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(100, 100, 100, .5);;
+    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);;
 }
 
 /* This code will affect the bottom elements on the page */

@@ -91,6 +91,10 @@
     padding-left: 45px;
 }
 
+.searchbar input:hover {
+    box-shadow: 0 2px 5px rgba(100, 100, 100, .5);
+}
+
 .mag_glass {
     width: 16px;
     height: 16px;
@@ -125,7 +129,7 @@
 
 .google_search:hover {
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);;
+    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);
 }
 
 .lucky {
@@ -143,7 +147,7 @@
 
 .lucky:hover {
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);;
+    box-shadow: 0 2px 5px rgba(100, 100, 100, .2);
 }
 
 /* This code will affect the bottom elements on the page */

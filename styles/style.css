@@ -21,6 +21,15 @@
     padding-top: 10px;
 }   
 
+.eeee {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    color: white;
+    padding-top: 10px;
+}
+
 .topleft:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -176,7 +185,7 @@
 }
 
 .botright:hover {
-    cursor: pointer;
+    cursor: pointer;    
     text-decoration: underline;
 }
 
